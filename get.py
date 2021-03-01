@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# new comment
 import requests
 from influxdb import InfluxDBClient
 from datetime import datetime, timezone
@@ -11,7 +11,7 @@ NETATMO_PASSWORD = ''
 
 _ALLOWED_TYPES = ('Temperature', 'CO2', 'Humidity', 'Pressure', 'Noise', 'Rain', 'Wind', 'WindStrength', 'WindAngle', 'GustStrength', 'GustAngle')
 
-
+# another comment
 def getAccessToken():
     '''
     returns:
